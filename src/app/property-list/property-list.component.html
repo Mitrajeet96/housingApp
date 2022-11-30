@@ -1,0 +1,9 @@
+<div class="row">
+  <div *ngFor="let property of Properties" class="shadow-lg col-md-4 p-5" >
+    <!-- <div class="col-md-4 p-2 justify-content-left"> -->
+      <app-property-card [property_name]="property"></app-property-card>
+
+    <!-- </div> -->
+
+  </div>
+</div>
